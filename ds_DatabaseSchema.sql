@@ -6,7 +6,8 @@ CREATE TABLE Users (
     RegisterDate TIMESTAMP NOT NULL,
     PerformanceTier INTEGER NOT NULL,
     Country VARCHAR(100),
-    LocationSharingOptOut BOOLEAN NOT NULL
+    LocationSharingOptOut BOOLEAN NOT NULL,
+    ProgressionOptedOut BOOLEAN NOT NULL
 );
 
 -- Organizations table
